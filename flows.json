@@ -1,1 +1,66 @@
-[]
+[
+    {
+        "id": "c9a1f7f0c67c7d04",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c5f675b40add05c4",
+        "type": "inject",
+        "z": "c9a1f7f0c67c7d04",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "13795f5d05791084",
+        "type": "debug",
+        "z": "c9a1f7f0c67c7d04",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 160,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "6d019729be7256fc",
+        "type": "complete",
+        "z": "c9a1f7f0c67c7d04",
+        "name": "",
+        "scope": [],
+        "uncaught": false,
+        "x": 130,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    }
+]
