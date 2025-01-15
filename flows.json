@@ -32,7 +32,7 @@
         "y": 140,
         "wires": [
             [
-                "a8a8bbb8b009d76b"
+                "5682d3bb64a46364"
             ]
         ]
     },
@@ -48,35 +48,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 520,
+        "x": 380,
         "y": 140,
         "wires": []
-    },
-    {
-        "id": "a8a8bbb8b009d76b",
-        "type": "change",
-        "z": "c9a1f7f0c67c7d04",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 350,
-        "y": 140,
-        "wires": [
-            [
-                "5682d3bb64a46364"
-            ]
-        ]
     }
 ]
